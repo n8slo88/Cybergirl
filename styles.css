@@ -1,5 +1,7 @@
 body{
     justify-content: center;
+    display:flex;
+    text-align: center;
     margin: 0;
     background-color: gray;
 }
@@ -37,7 +39,7 @@ body{
 .popuptwo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
-    width: 300px;
+    width: 260px;
     height: 300px;
     background-color: rgba(244,244,244, 0.6);
     border: solid black 3px;
