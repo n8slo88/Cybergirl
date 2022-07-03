@@ -1,3 +1,33 @@
+@media only screen and (max-width: 768px) {
+    .grid{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+
+    .heart{
+        position:relative;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+    }
+    .faces{
+        margin:auto;
+        width: 100px;
+        height: 100px;
+    }
+    .popup{
+        display: flex;
+        margin-top: 100px auto;
+        width: 150px;
+        height: 100px;
+        background-color: rgba(244,244,244, 0.6);
+        border: solid black 3px;
+        border-radius: 30px;
+    }
+}
+
 body{
     justify-content: center;
     display:flex;
@@ -21,17 +51,8 @@ body{
     height: 300px;
     border-radius: 150px;
 }
-@media only screen and (max-width: 500px) {
 
-    .heart{
-        position:relative;
-        justify-content: center;
-        width: 50%;
-        height:50%;
-    }}
-    
 .faces{
-    
     margin: 100px;
     width: 100px;
     height: 100px;
