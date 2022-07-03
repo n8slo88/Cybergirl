@@ -64,6 +64,7 @@ function musicPlay(){
 
  ///speach and interaction
  function showPopup(){
+     heart.removeChild(face)
      heart.appendChild(popup)
      popup.appendChild(yesbutton)
      popup.appendChild(nobutton)
@@ -110,7 +111,7 @@ function removeFrown(){
 }
 
 function opening(){
-    setTimeout(introtalk, 6000)
+    setTimeout(introtalk, 4000)
     }
 
     function introtalk(){
