@@ -15,11 +15,11 @@ body{
 }
 @media only screen and (max-width: 500px) {
     .grid{
-        width: 50%;
-        height: 50%
+        
     }
     .heart{
         position:relative;
+        justify-content: center;
         width: 50%;
         height:50%;
     }
