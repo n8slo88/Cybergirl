@@ -13,17 +13,7 @@ body{
     background-color: aquamarine;
     border-radius: 250px;
 }
-@media only screen and (max-width: 500px) {
-    .grid{
-        
-    }
-    .heart{
-        position:relative;
-        justify-content: center;
-        width: 50%;
-        height:50%;
-    }
-  }
+
 .heart{
     justify-content: center;
     margin: 100px 100px;
@@ -31,6 +21,15 @@ body{
     height: 300px;
     border-radius: 150px;
 }
+@media only screen and (max-width: 500px) {
+
+    .heart{
+        position:relative;
+        justify-content: center;
+        width: 50%;
+        height:50%;
+    }}
+    
 .faces{
     
     margin: 100px;
