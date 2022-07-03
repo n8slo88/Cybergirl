@@ -100,8 +100,8 @@ function opening(){
      setTimeout(introtalk, 6000)
 }
 
-async function introtalk(){
-    await intro.play()
+function introtalk(){
+    intro.play()
     let nameInput = ''
     let name= window.prompt('What is your name?', nameInput )
     if (name === ""){
