@@ -77,7 +77,9 @@ function showArt(){
     popup.classList.remove('popup')
     popup.classList.add('popuptwo')
     popup.innerHTML="<h2> Here are some additional links</h2><br>\
+    <a href='https://uhonehoudini.netlify.app/' target='_blank'> UH.ONE.HOUDINI</a><br>\
     <a href='https://uhtwoedison.netlify.app/' target='_blank'> UH.TWO.EDISON</a>"
+
      window.open('https://uhonehoudini.netlify.app/', "_new");
 }
 function byebye(){
