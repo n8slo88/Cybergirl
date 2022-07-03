@@ -1,4 +1,5 @@
 body{
+    justify-content: center;
     margin: 0;
     background-color: gray;
 }
@@ -44,19 +45,41 @@ body{
 }
 .button{
     margin: auto;
-    color: yellow;
-    width: 80px;
+    color: rgb(247, 247, 204);
+    width: 40px;
     height: 40px;
     border: solid white 2px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: black;
     
 }
 button:hover{
     background-color: gray;
     color: red;
+    cursor:pointer;
 }
 
 h2{
     margin: 0px;
+}
+.start{
+    padding-top: 200px;
+    text-align: center;
+    background-color: beige;
+    text-align: center;
+    color: gray;
+    font-family: Tahoma;
+    font-size: 30px;
+}
+#go:hover{
+    color:yellow;
+    cursor:pointer;
+}
+a{
+    color:gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
 }
