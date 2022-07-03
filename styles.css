@@ -13,8 +13,19 @@ body{
     background-color: aquamarine;
     border-radius: 250px;
 }
+@media only screen and (max-width: 500px) {
+    .grid{
+        width: 50%;
+        height: 50%
+    }
+    .heart{
+        position:relative;
+        width: 50%;
+        height:50%;
+    }
+  }
 .heart{
-    position: absolute;
+    justify-content: center;
     margin: 100px 100px;
     width: 300px;
     height: 300px;
