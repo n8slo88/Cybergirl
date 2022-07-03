@@ -8,52 +8,56 @@ body{
 }
 
 .grid{
-    margin: 100px auto;
-    width: 500px;
-    height: 500px;
+    margin: auto;
+    margin-top: 8rem;
+    width: 30rem;
+    height: 30rem;
     background-color: aquamarine;
-    border-radius: 250px;
+    border-radius: 15rem;
 }
 
 .heart{
     justify-content: center;
-    margin: 100px 100px;
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+    margin: auto;
+    margin-top:5rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
 }
 
 .faces{
-    margin: 100px;
-    width: 100px;
-    height: 100px;
+    margin: auto;
+    margin-top: 5rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 .popup{
-    display: flex;
-    margin-top: 100px;
-    width: 300px;
-    height: 100px;
+    margin:auto;
+    width: 13rem;
+    height: 20rem;
     background-color: rgba(244,244,244, 0.6);
     border: solid black 3px;
-    border-radius: 30px;
+    border-radius: 1rem;
 }
 .popuptwo{
+    margin: auto;
+    margin-top: 5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 20px;
-    width: 260px;
-    height: 300px;
+    padding: 2rem;
+    width: 10rem;
+    height: 10rem;
     background-color: rgba(244,244,244, 0.6);
     border: solid black 3px;
-    border-radius: 30px;
+    border-radius: 3rem;
 }
 .button{
-    margin: auto;
+    margin: 3rem;
     color: rgb(247, 247, 204);
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     border: solid white 2px;
-    border-radius: 20px;
+    border-radius: 2rem;
     background-color: black;
     
 }
@@ -67,13 +71,13 @@ h2{
     margin: 0px;
 }
 .start{
-    padding-top: 200px;
+    padding-top: 10rem;
     text-align: center;
     background-color: beige;
     text-align: center;
     color: gray;
     font-family: Tahoma;
-    font-size: 30px;
+    font-size: 2em;
 }
 #go:hover{
     color:yellow;
@@ -85,7 +89,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color:blue;
+    color:red;
 }
 @media (max-width: 700px) {
     .grid{
@@ -110,20 +114,17 @@ a:hover{
     .popup{
         margin:auto;
         max-width: 13rem;
-        max-height: 10rem;
+        max-height: 19rem;
         background-color: rgba(244,244,244, 0.6);
         border: solid black 3px;
         border-radius: 3rem;
     }.popuptwo{
         margin:auto;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        padding: 2rem;
         max-width: 10rem;
-        max-height: 30rem;
+        max-height: 10rem;
         background-color: rgba(244,244,244, 0.6);
         border: solid black 3px;
         border-radius: 2rem;
     }
-
-    
 }

@@ -64,41 +64,42 @@ function musicPlay(){
 
  ///speach and interaction
  function showPopup(){
-     heart.removeChild(face)
-     heart.appendChild(popup)
-     popup.appendChild(yesbutton)
-     popup.appendChild(nobutton)
-     nobutton.addEventListener('click', byebye)
-     yesbutton.addEventListener('click', showArt)
+     heart.removeChild(face);
+     heart.appendChild(popup);
+     popup.appendChild(yesbutton);
+     popup.appendChild(nobutton);
+     nobutton.addEventListener('click', byebye);
+     yesbutton.addEventListener('click', showArt);
  }
 
 function showArt(){
-    popup.removeChild(yesbutton)
-    popup.removeChild(nobutton)
-    popup.classList.remove('popup')
-    popup.classList.add('popuptwo')
-    popup.innerHTML="<h2> Here are some additional links</h2><br>\
+    popup.removeChild(yesbutton);
+    popup.removeChild(nobutton);
+    popup.classList.remove('popup');
+    popup.classList.add('popuptwo');
+    popup.innerHTML="<h2> Here are some links</h2><br>\
     <a href='https://uhonehoudini.netlify.app/' target='_blank'> UH.ONE.HOUDINI</a><br>\
-    <a href='https://uhtwoedison.netlify.app/' target='_blank'> UH.TWO.EDISON</a>"
-
-     window.open('https://uhonehoudini.netlify.app/', "_new");
+    <br>\
+    <a href='https://uhtwoedison.netlify.app/' target='_blank'> UH.TWO.EDISON</a>";
 }
+
 function byebye(){
-    body.style.backgroundColor ="gray";
-     heart.removeChild(popup)
-     const toobad =document.createElement('audio')
-     toobad.src = "audio/toobad.mp3"
-     toobad.play()
+    heart.removeChild(popup);
+     heart.appendChild(face);
      showFrown();
+     body.style.backgroundColor ="gray";
+     const toobad =document.createElement('audio');
+     toobad.src = "audio/toobad.mp3";
+     toobad.play();
  }
 
 function showSmile(){
-    face.appendChild(smile)
-    setTimeout(removeSmile, 1500)
+    face.appendChild(smile);
+    setTimeout(removeSmile, 1500);
 }
 
 function removeSmile(){
-    face.removeChild(smile)
+    face.removeChild(smile);
 }
 
 function showFrown(){
@@ -149,7 +150,6 @@ function opening(){
             showFrown();
             setTimeout(playNoemail, 1000)
             body.style.backgroundColor = "gray"
-
         }
     }
     function playNoemail(){
@@ -166,7 +166,6 @@ function opening(){
         viewart.src ='audio/viewart.mp3'
         viewart.play();
         showPopup();
-
         }
 
     ///changes Ells heart color
